@@ -44,7 +44,7 @@ const Home = () => {
       <LegacyComposerHero />
       <Divider size={2} my={8} mx="auto" />
 
-      <HideInProd>
+
         <Box my={8}>
           <Container size={2} sx={{ textAlign: 'center' }}>
             <Heading as="h3" size={4} mb={4}>
@@ -96,9 +96,7 @@ const Home = () => {
             </BlogCardGrid>
           </Container>
         </Box>
-
         <Divider mx="auto" size={2} />
-      </HideInProd>
       <Divider mx="auto" size={2} />
 
       <BetaAccess />
