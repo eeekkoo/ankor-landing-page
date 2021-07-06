@@ -18,7 +18,7 @@ export const Footer = () => {
           <Flex sx={{ flexDirection: [null, 'column'], alignItems: ['center', 'start'] }}>
             <NextLink href="/" passHref>
               <Link variant="fade" sx={{ color: 'inherit', ':focus': { boxShadow: 'none' } }}>
-                <VisuallyHidden>Modulz homepage</VisuallyHidden>
+                <VisuallyHidden>Ankor homepage</VisuallyHidden>
                 <Logo aria-hidden />
               </Link>
             </NextLink>

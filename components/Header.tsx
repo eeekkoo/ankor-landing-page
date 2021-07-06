@@ -27,7 +27,7 @@ export const Header = () => {
       <Flex py={4} sx={{ alignItems: 'flex-start' }}>
         <NextLink href="/" passHref>
           <Link sx={{ color: 'inherit', ':focus': { boxShadow: 'none' } }}>
-            <VisuallyHidden>Modulz homepage</VisuallyHidden>
+            <VisuallyHidden>Ankor homepage</VisuallyHidden>
             <Logo aria-hidden />
           </Link>
         </NextLink>

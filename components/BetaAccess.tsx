@@ -14,7 +14,7 @@ export const BetaAccess = () => {
           We're currently in private alpha. Applications will be screened based on fit.
         </Text>
 
-        <MarketingButton as="a" href="https://modulz.typeform.com/to/fp4gBW" target="_blank" rel="noopener">
+        <MarketingButton as="a" href="https://q2k0h6bc7lq.typeform.com/to/GJMeDrrU" target="_blank" rel="noopener">
           Apply for early access
           <Box as="span" ml={2} aria-hidden>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
