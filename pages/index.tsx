@@ -70,7 +70,7 @@ const Home = () => {
                 </Heading>
 
                 <Text as="p" size={3} mt={2} sx={{ color: 'gray700' }}>
-                  No more spinners or save button. We sync data on the fly as you move.
+                  No more spinners or save buttons. We sync data on the fly.
                 </Text>
               </FeatureCard>
 
