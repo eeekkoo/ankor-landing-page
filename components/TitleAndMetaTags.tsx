@@ -11,10 +11,10 @@ type TitleAndMetaTagsProps = {
 };
 
 export default function TitleAndMetaTags({
-  url = 'https://modulz-website.now.sh',
+  url = 'https://ankor-landing-page.vercel.app/',
   pathname,
-  title = 'Modulz',
-  description = 'The visual code editor for producing production-ready design systems without writing code',
+  title = 'Ankor',
+  description = 'The time-tracking app built for power-users',
   poster,
 }: TitleAndMetaTagsProps) {
   const router = useRouter();
@@ -27,14 +27,14 @@ export default function TitleAndMetaTags({
       <title>{title}</title>
       <meta name="description" content={description} />
 
-      <meta property="og:url" content={`${url}${path}`} />
+      {/* <meta property="og:url" content={`${url}${path}`} /> */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={image} />
+      {/* <meta property="og:image" content={image} /> */}
 
-      <meta name="twitter:site" content="@modulz" />
-      <meta name="twitter:card" content="summary" />
-      {poster && <meta name="twitter:card" content="summary_large_image" />}
+      {/* <meta name="twitter:site" content="@modulz" />
+      <meta name="twitter:card" content="summary" /> */}
+      {/* {poster && <meta name="twitter:card" content="summary_large_image" />} */}
     </Head>
   );
 }
