@@ -90,7 +90,7 @@ const Home = () => {
                 </Heading>
 
                 <Text as="p" size={3} mt={2} sx={{ color: 'gray700' }}>
-                  Moving from In Progress to Done automatically tracks time.
+                  Moving a task from In Progress to Done automatically logs time.
                 </Text>
               </FeatureCard>
             </BlogCardGrid>
