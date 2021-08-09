@@ -16,7 +16,7 @@ export const JoinWaitlist = () => {
   return (
     <>
       <Input
-        status={`${emailError ? 'error' : ''}`}
+        status={`${emailError ? 'error' : 'secondary'}`}
         onChange={(e) => setEmail(e.target.value)}
         value={email}
         icon={<EnvelopeIcon color={'#666'} />}
