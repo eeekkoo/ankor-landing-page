@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Input, useToasts } from '@geist-ui/react';
 import { EnvelopeIcon } from '@modulz/radix-icons';
+
 import { supabase } from '../utils/supabase';
 
 function valid(email) {
@@ -9,14 +10,13 @@ function valid(email) {
 }
 
 export const JoinWaitlist = () => {
-  const [email, setEmail] = useState();
+  const [email, setEmail] = useState<string>('');
   const [emailError, setEmailError] = useState(false);
   const [toasts, setToast] = useToasts();
-
   return (
     <>
       <Input
-        status={`${emailError ? 'error' : 'default'}`}
+        // status={`${emailError ? "error" : "default"}`}
         onChange={(e) => setEmail(e.target.value)}
         value={email}
         icon={<EnvelopeIcon color={'#666'} />}
