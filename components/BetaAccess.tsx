@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Text, Box, Flex, Heading } from '@modulz/radix';
 import { MarketingButton } from '../components/MarketingButtton';
+import { JoinWaitlist } from '../components/JoinWaitlist';
 
 export const BetaAccess = () => {
   return (
@@ -11,10 +12,12 @@ export const BetaAccess = () => {
         </Heading>
 
         <Text as="p" size={5} mb={6} sx={{ color: 'gray700', lineHeight: 3 }}>
-          We're currently in private alpha. Applications will be screened based on fit.
+          We're currently in private alpha.
         </Text>
 
-        <MarketingButton as="a" href="https://q2k0h6bc7lq.typeform.com/to/GJMeDrrU" target="_blank" rel="noopener">
+        <JoinWaitlist />
+
+        {/* <MarketingButton as="a" href="https://q2k0h6bc7lq.typeform.com/to/GJMeDrrU" target="_blank" rel="noopener">
           Apply for early access
           <Box as="span" ml={2} aria-hidden>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -22,7 +25,7 @@ export const BetaAccess = () => {
               <path d="M3.5 11.5L11.5 3.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </Box>
-        </MarketingButton>
+        </MarketingButton> */}
       </Container>
     </Box>
   );

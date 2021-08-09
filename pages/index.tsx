@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Box, Heading, Text, Divider, Flex, CardLink } from '@modulz/radix';
 import { BlogCardGrid } from '../components/BlogCardGrid';
 import { BetaAccess } from '../components/BetaAccess';
@@ -7,6 +7,7 @@ import { MarketingButton } from '../components/MarketingButtton';
 import { LegacyComposerHero } from '../components/LegacyHeroIllustration/LegacyComposerHero';
 import { HideInProd } from '../components/HideInProd';
 import { FeatureCard } from '../components/FeatureCard';
+import { JoinWaitlist } from '../components/JoinWaitlist';
 
 const Home = () => {
   return (
@@ -24,7 +25,8 @@ const Home = () => {
           Time-tracking apps today are not suited to the user who utilises keyboard shortcuts in their daily workflow.
           Performing repetitive tasks by pointing and clicking is frustrating. With Ankor, we optimise for the keyboard.
         </Heading>
-        <MarketingButton as="a" href="https://q2k0h6bc7lq.typeform.com/to/GJMeDrrU" target="_blank" rel="noopener">
+        <JoinWaitlist />
+        {/* <MarketingButton as="a" href="https://q2k0h6bc7lq.typeform.com/to/GJMeDrrU" target="_blank" rel="noopener">
           Apply for beta access
           <Box as="span" ml={2} aria-hidden>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -32,7 +34,7 @@ const Home = () => {
               <path d="M3.5 11.5L11.5 3.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </Box>
-        </MarketingButton>
+        </MarketingButton> */}
 
         <Box mt={3}>
           <Text as="p" size={2} sx={{ color: 'gray700', lineHeight: '1' }}>
