@@ -11,7 +11,7 @@ type TitleAndMetaTagsProps = {
 };
 
 export default function TitleAndMetaTags({
-  url = 'https://ankor-landing-page.vercel.app/',
+  url = 'https://ankor.vercel.app/',
   pathname,
   title = 'Ankor',
   description = 'The time-tracking app built for power-users',
